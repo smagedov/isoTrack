@@ -1063,7 +1063,9 @@ process.CaloTowerGeometryFromDBEP = cms.ESProducer("CaloTowerGeometryFromDBEP",
 )
 
 
-process.CaloTowerTopologyEP = cms.ESProducer("CaloTowerTopologyEP")
+process.CaloTowerTopologyEP = cms.ESProducer("CaloTowerTopologyEP",
+    appendToDataLabel = cms.string('')
+)
 
 
 process.CastorDbProducer = cms.ESProducer("CastorDbProducer",

@@ -1,1 +1,43 @@
 ./macros/CalibMain.exe: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by ./macros/CalibMain.exe)
+Execute CalibMonitor with infile:d24CE.txt dirName: ./ dupFile: 24CEM3.log comFile: outFile: prefix: 24CE3 corrFile: 24CE2corr.txt rcoFile:PhiSym2024_RunC.txt puCorr:-8 Flag:41031 Numb:54 dataMC:1 truncate:2 useGen:0 Scale:1 useScale:0 etaRange:0:30 runRange:0:99999999 phiRange:1:72 zside:1 nvxRange:0:1000 rbxFile: exclude:0 etaMax:0 histFile:24CEM3.root append:1 all:1 nmax:-1
+Create a chain for .//CalibTree from d24CE.txt flags 1|3|-8
+ cons 0.050905 eta range 0:30 run range 0:99999999 (inclusion flag 1)
+ Selection of RBX 0 Vertex Range 0:1000
+ corrFileName: 24CE2corr.txt useScale 0:1:0
+ rcorFileName: PhiSym2024_RunC.txt flag 4:1:0 Threshold Flag 0
+No. of Entries in this tree : Error in <TChain::LoadTree>: Cannot find tree with name .//CalibTree in file /eos/cms/store/group/dpg_hcal/comm_hcal/Jyoti/13p6TeV/2024/EraC/EGamma0_v3_UnCorr/EraC_40to60_v2.root
+Error in <TChain::LoadTree>: Cannot find tree with name .//CalibTree in file /eos/cms/store/group/dpg_hcal/comm_hcal/Jyoti/13p6TeV/2024/EraC/EGamma0_v3_UnCorr/EraC_40to60_v3.root
+Error in <TChain::LoadTree>: Cannot find tree with name .//CalibTree in file /eos/cms/store/group/dpg_hcal/comm_hcal/Jyoti/13p6TeV/2024/EraC/EGamma0_v3_UnCorr/EraC_40to60_v5.root
+Error in <TChain::LoadTree>: Cannot find tree with name .//CalibTree in file /eos/cms/store/group/dpg_hcal/comm_hcal/Jyoti/13p6TeV/2024/EraC/EGamma0_v3_UnCorr/EraC_40to60_v7.root
+0
+Proceed with a tree chain with 0 entries
+Cannot open file 24CE2corr.txt
+Reads 0 correction factors from 24CE2corr.txt with flag 0
+Flag for scale 0 with scale 1; flag for etaMax 0 and flag for Format 0
+No event list provided for selection
+Book Histos for Non-Standard 55:3
+Reads a list of 0 events from 24CEM3.log
+CalibCorr is created with flag 4:4 for i/p file PhiSym2024_RunC.txt
+Enters readCorrPhi for PhiSym2024_RunC.txt
+Cannot open file PhiSym2024_RunC.txt
+Total entries 0:0
+
+Summary of entries with 0 runs
+0 runs with 0 energy in HCAL
+0 runs with 0 energy in ECAL and HCAL
+Finds 0 Duplicate events out of 0 events in this file with p>10 Gev
+Number of selected events:
+10:20     0
+20:30     0
+30:40     0
+40:60     0
+60:100     0
+100:500     0
+Number in each step for tracks of momentum 40-60 GeV:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 10-20 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 20-30 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 30-40 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 40-60 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 60-100 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+Number in each step for tracks of momentum 100-500 Gev:  [0] 0 [1] 0 [2] 0 [3] 0 [4] 0 [5] 0 [6] 0 [7] 0 [8] 0 [9] 0 [10] 0 [11] 0 [12] 0 [13] 0 [14] 0 [15] 0 [16] 0 [17] 0
+All done
